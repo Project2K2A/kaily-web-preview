@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 160" fill="none">
+  <defs>
+    <linearGradient id="side" x1="90" y1="85" x2="90" y2="139" gradientUnits="userSpaceOnUse"><stop stop-color="#68CB14"/><stop offset="1" stop-color="#245E0C"/></linearGradient>
+    <radialGradient id="top" cx="0" cy="0" r="1" gradientTransform="translate(58 46) rotate(49) scale(95)" gradientUnits="userSpaceOnUse"><stop stop-color="#F1FFB8"/><stop offset=".45" stop-color="#B9FF2B"/><stop offset="1" stop-color="#6EDC13"/></radialGradient>
+    <filter id="glow" x="0" y="4" width="180" height="156" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+  <ellipse cx="90" cy="91" rx="70" ry="50" fill="#9DFF31" opacity=".42" filter="url(#glow)"/>
+  <path d="M20 68c0 30 31 52 70 52s70-22 70-52v28c0 30-31 52-70 52S20 126 20 96V68Z" fill="url(#side)"/>
+  <ellipse cx="90" cy="68" rx="70" ry="52" fill="url(#top)" stroke="#F3FFB0" stroke-width="4"/>
+  <ellipse cx="90" cy="68" rx="59" ry="43" stroke="white" stroke-opacity=".65" stroke-width="4"/>
+  <path d="M58 67h64M51 57v20M60 53v28M120 53v28M129 57v20" stroke="#263E16" stroke-width="8" stroke-linecap="round"/>
+  <path d="M47 35c13-16 42-25 67-15" stroke="white" stroke-opacity=".55" stroke-width="8" stroke-linecap="round"/>
+</svg>
